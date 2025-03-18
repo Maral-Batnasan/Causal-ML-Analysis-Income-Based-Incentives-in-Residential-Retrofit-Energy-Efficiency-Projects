@@ -1,6 +1,6 @@
 # Causal-ML-Analysis-Income-Based-Incentives-in-Residential-Retrofit-Energy-Efficiency-Projects
 
-## Causal ML Analysis: Assisted vs. Market Treatment Effects
+## Causal ML Analysis: Assisted vs. Market Treatment Effects 
 
 This analysis explores the impact of assisted vs. market rate incentives on project outcomes using Causal ML methods. S-Learner and X-Learner has been applied using different base models: Linear Regression, XGBoost, and Random Forest.
 
