@@ -44,9 +44,9 @@ The model supports **program managers and policymakers** by:
 - **Program Details**: Measure Type, Program Financing, Utilities
 - **Geographic Info**: County, Electric/Gas Utility
 
-![Distribution of features and target] (images/Distribution.png)
+![Distribution of features and target](images/Distribution.png)
 
-![Pre-Retrofit Home Heating Fuel Type] (images/Heating Fuel Type.png)
+![Pre-Retrofit Home Heating Fuel Type](images/Heating%20Fuel%20Type.png)
 
 > Observation: Conducting a stratified split based on the 'Pre-Retrofit Home Heating Fuel Type' column, as it is likely to have a significant impact on energy savings (Fuel conversions (e.g., switching from oil to electricity) can cause significant changes in savings).
 
@@ -119,8 +119,8 @@ Separate models are trained for treated and control groups, allowing richer mode
 
 ### 1. Aggregated Permutation Importance (S-Learner – XGBoost)
 
-![Feature Importance XGB](images/Feature Importance - S-Learner XGBoost.png)
-![Permutation Importance XGB](images/Permutation Importance - S-Learner XGBoost.png)
+![Feature Importance XGB](images/Feature%20Importance%20-%20S-Learner%20XGBoost.png)
+![Permutation Importance XGB](images/Permutation%20Importance%20-%20S-Learner%20XGBoost.png)
 
 #### Feature Importance Analysis (S-Learner and X-Learner)
 - Across models, 'Pre-Retrofit Home Heating Fuel Type' consistently appeared as the most important feature, indicating that fuel switch (from which fuel type to which fuel type) has strong influence on energy savings.
@@ -132,7 +132,7 @@ Separate models are trained for treated and control groups, allowing richer mode
 
 ### 2. CATE by Fuel Type (X-Learner – XGBoost)
 
-![CATE Fuel](images/CATE - X-Learner XGBoost.png)
+![CATE Fuel](images/CATE%20-%20X-Learner%20XGBoost.png)
 
 - The effect of assisted incentives varies widely by fuel type.
 - Homes using 'Propane' and 'Electricity' saw the largest reductions.
