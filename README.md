@@ -177,7 +177,7 @@ I used `DoWhy` to estimate the **Average Treatment Effect (ATE)** of financial i
 
 ### Example Causal Graph
 
-![Causal Graph](images/Causal Graph - DoWhy.png)
+![Causal Graph](images/Causal%20Graph%20-%20DoWhy.png)
 
 ## Conclusion from DoWhy: 'Pre-Retrofit Home Heating Fuel Type'
 
